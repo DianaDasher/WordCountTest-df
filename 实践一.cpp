@@ -37,6 +37,10 @@ int main (int argc, char *argv[])
 	    }
         printf("字符数=%d",sum);
     }
+    else
+    {
+    	printf("参数输入错误，请输入w统计单词数或c统计字符数！");
+	}
     fclose(fp);//关闭文件 
     return 0;
 }
